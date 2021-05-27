@@ -76,7 +76,7 @@ class DMallCommand extends commando.Command {
         while (msg = "") {
             wait++;
             setTimeout(function(){
-                continue
+                return
             }, 2000);
         }
         
